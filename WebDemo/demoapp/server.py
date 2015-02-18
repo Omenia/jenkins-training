@@ -36,8 +36,7 @@ class DemoServer(TCPServer):
             server.serve_forever()
         except KeyboardInterrupt:
             server.server_close()
-        print 'Demo server stopped.'
-
+        print "Demo server stopped."
 
 if __name__ == '__main__':
     import sys
